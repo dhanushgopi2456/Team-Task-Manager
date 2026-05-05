@@ -1,0 +1,13 @@
+{
+  "name": "team-task-manager",
+  "version": "1.0.0",
+  "description": "Full-stack Team Task Manager with RBAC",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "cd server && node server.js",
+    "client": "cd client && npm run dev",
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm install && npm run build",
+    "postinstall": "cd server && npm install && cd ../client && npm install && npm run build"
+  }
+}
