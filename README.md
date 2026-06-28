@@ -178,6 +178,12 @@ The app will be available at `http://localhost:5173`
 
 Register as Admin or Member through the signup page. Select your role during registration.
 
+create random credentials for member access
+
+For Admin Access: 
+Email:admin12@gmail.com
+Password:123456
+
 ---
 
 Built with ❤️ using the MERN Stack
